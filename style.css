@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background: black;
+}
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: bolder;
+}
+#navbarSupportedContent a {
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid #b6a76b;
+}
+#navbarSupportedContent button {
+  background: #b6a76b;
+  border: 1px solid #b6a76b;
+  border-radius: 15px;
+  height: 40px;
+}
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------Home--------*/
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(image/home.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+#home h1 {
+  font-size: 100px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p {
+  font-size: 18px;
+  color: white;
+}
+#home a {
+  background-color: #b6a76b;
+  color: black;
+  width: 60px;
+  height: 30px;
+  padding: 4px;
+  border: 1px solid #b6a76b;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/*-----------About--------*/
+#about {
+  background-color: black;
+  color: white;
+}
+#about h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+#about a {
+  text-decoration: none;
+  background-color: #b6a76b;
+  border: 1px solid #b6a76b;
+  border-radius: 2px;
+  color: black;
+  font-weight: bold;
+}
+/*---------products---------*/
+#products h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.card {
+  border: 5px solid #b6a76b !important;
+  border-radius: 5px !important;
+}
+.card-body {
+  background-color: #b6a76b;
+  color: black;
+  text-align: center;
+}
+.card-body button {
+  background-color: #5e542c;
+  border: 1px solid #71663a;
+  width: 100px;
+  border-radius: 3px;
+}
+
+/*-----------contact------------*/
+#contact {
+  width: 100%;
+  min-height: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+#contact h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+#contact i {
+  color: #b6a76b;
+  margin-left: 10%;
+}
+#lp1 {
+  border: 2px solid #5e542c;
+  padding: 30px;
+  width: 400px;
+  border-radius: 5px;
+}
+#lp2 {
+  padding-left: 10%;
+}
